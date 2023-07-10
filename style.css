@@ -33,6 +33,23 @@ Version: 1.0
 */
 
 /*============Glogbal Style================ */
+
+.kkk{
+    position: relative;
+}
+.kkk::before{
+    content: "";
+    position: absolute;
+    left: -32px;
+    width: 141%;
+    height: 52%;
+    background-color: #E3D859;
+    opacity: 0.4;
+    z-index: -1;
+
+}
+
+
 html,
 body {
     height: 100%;
